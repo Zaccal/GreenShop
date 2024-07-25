@@ -1,0 +1,7 @@
+.title {
+    @apply text-3xl font-bold text-center mb-[15px];
+}
+
+.subtitle {
+    @apply text-md text-subtitle text-center mb-9;
+}

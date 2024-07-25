@@ -1,0 +1,27 @@
+.header {
+    @apply !p-0 h-[195.17px];
+}
+
+.skilleton {
+    @apply !w-full !h-full !rounded-b-none;
+}
+
+.cardContent {
+    @apply bg-muted !pt-2 !pb-[9px];
+}
+
+.time {
+    @apply text-primary text-md;
+}
+
+.title {
+    @apply text-xl font-bold;
+}
+
+.subtitle {
+    @apply text-md text-subtitle leading-[22px];
+}
+
+.btn {
+    @apply flex items-center gap-2 transition-colors hover:text-primary;
+}

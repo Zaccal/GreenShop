@@ -1,0 +1,3 @@
+.header_body {
+    @apply py-2 border-b border-b-accent flex items-center justify-between;
+}

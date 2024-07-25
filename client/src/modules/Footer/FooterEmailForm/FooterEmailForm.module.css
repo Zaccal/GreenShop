@@ -1,0 +1,11 @@
+.container {
+    @apply flex items-center mt-[18px];
+}
+
+.input {
+    @apply !rounded-r-none focus-visible:!shadow-none focus-visible:!ring-0 focus-visible:!ring-offset-0;
+}
+
+.btn {
+    @apply !font-bold !text-md !rounded-l-none;
+}

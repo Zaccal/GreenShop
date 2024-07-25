@@ -1,0 +1,11 @@
+.container {
+    @apply grid gap-8 grid-cols-10 items-start mb-[87px];
+}
+
+.products {
+    @apply col-span-7;
+}
+
+.total_card {
+    @apply col-start-8 col-end-11;
+}

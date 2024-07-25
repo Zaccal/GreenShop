@@ -1,0 +1,27 @@
+.Card {
+    @apply !rounded-none !border-none !bg-muted relative flex justify-end items-center py-[37px] px-[30px];
+}
+
+.design {
+    @apply absolute left-0 bottom-0;
+}
+
+.preview {
+    @apply absolute !mix-blend-multiply left-0 bottom-0;
+}
+
+.content {
+    @apply max-w-[292px] w-full flex flex-col items-end;
+}
+
+.title {
+    @apply font-black w-full max-w-[160px] text-lg uppercase text-right text-[#3d3d3d];
+}
+
+.subtitle {
+    @apply text-md text-right mt-2 text-[#727272];
+}
+
+.button {
+    @apply self-end flex mt-4 items-center gap-2;
+}

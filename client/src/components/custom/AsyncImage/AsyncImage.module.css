@@ -1,0 +1,7 @@
+.fallback {
+    @apply flex justify-center items-center;
+}
+
+.fallback svg {
+    @apply w-1/4 h-1/4 text-primary;
+}

@@ -1,0 +1,3 @@
+.dropdownMenuItemStyle {
+    @apply cursor-pointer flex items-center gap-1;
+}

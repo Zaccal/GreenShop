@@ -1,0 +1,8 @@
+.active {
+    @apply text-primary font-bold relative;
+}
+
+.active::before {
+    content: '';
+    @apply absolute w-11 bg-primary h-[2px] bottom-[-15px];
+}

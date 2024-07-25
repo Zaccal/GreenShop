@@ -1,0 +1,4 @@
+.layout {
+    @apply min-h-[100vh] m-0 grid;
+    grid-template-rows: auto 1fr auto;
+}

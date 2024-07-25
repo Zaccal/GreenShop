@@ -1,0 +1,15 @@
+.title {
+    @apply text-lg font-bold;
+}
+
+.list {
+    @apply mt-2;
+}
+
+.list li + li {
+    @apply mt-3;
+}
+
+.list li {
+    @apply transition-colors hover:text-primary;
+}

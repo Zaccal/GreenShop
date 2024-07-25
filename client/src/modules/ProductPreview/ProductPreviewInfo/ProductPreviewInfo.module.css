@@ -1,0 +1,35 @@
+.wrapper {
+    @apply w-full -mt-5;
+}
+
+.title {
+    @apply text-1xl font-bold;
+}
+
+.cost_and_rating_container {
+    @apply flex items-center justify-between;
+}
+
+.cost {
+    @apply text-[22px] text-primary font-bold;
+}
+
+.subtitle {
+    @apply text-[15px] font-medium;
+}
+
+.shortDescription {
+    @apply text-[15.3px] mt-[10px] mb-4 text-subtitle;
+}
+
+.count_functions_container {
+    @apply flex mt-4 mb-4 items-center gap-7;
+}
+
+.buttons_container {
+    @apply flex items-center gap-[10px];
+}
+
+.button {
+    @apply text-md uppercase !font-bold;
+}

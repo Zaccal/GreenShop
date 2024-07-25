@@ -1,0 +1,27 @@
+.list > li + li {
+    @apply mt-1;
+}
+
+.list > li span {
+    @apply text-md;
+}
+
+.subtitle {
+    @apply text-[#ACACAC];
+}
+
+.title {
+    @apply text-subtitle;
+}
+
+.share {
+    @apply flex items-center gap-4;
+}
+
+.share_social_media {
+    @apply text-main font-medium;
+}
+
+.social_media {
+    @apply flex items-center gap-5 text-main;
+}

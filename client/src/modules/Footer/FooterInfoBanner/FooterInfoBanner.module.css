@@ -1,0 +1,11 @@
+.FooterContainer {
+    @apply bg-bannerFooter mt-[24px] mb-[33px] px-[23px] py-[27px];
+}
+
+.container {
+    @apply grid grid-cols-4;
+}
+
+.info {
+    @apply flex items-center gap-3;
+}

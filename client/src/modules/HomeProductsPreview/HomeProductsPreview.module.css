@@ -1,0 +1,79 @@
+.header {
+    @apply flex justify-between items-center;
+}
+
+.container {
+    @apply grid grid-cols-3 grid-rows-3 mt-8 gap-x-8 gap-y-5;
+}
+
+.Card {
+    @apply !rounded-none !border-0 !shadow-none;
+}
+
+.CardPreview {
+    @apply max-w-250 max-h-250 w-full h-full border-t border-t-transparent relative !px-0 transition-all;
+}
+
+.CardDisCount {
+    @apply absolute bg-primary py-[7px] px-[9px] text-white z-10;
+}
+
+.CardPreview:has(.preview):hover {
+    @apply border-t border-t-primary;
+}
+
+.preview {
+    @apply rounded-md !mix-blend-multiply w-full h-auto;
+}
+
+.CardPreview:has(.preview) {
+    @apply bg-muted;
+}
+
+.CardPreviewFallBack {
+    @apply bg-muted rounded-md w-[250px] h-[250px];
+}
+
+.CardButtons {
+    @apply hidden animate-show transition-all absolute bottom-2 gap-[7px] left-1/2 -translate-x-1/2;
+}
+
+.CardPreview:has(.preview):hover .CardButtons {
+    @apply flex;
+}
+
+.CardContent {
+    @apply !py-3;
+}
+
+.CardTitle {
+    @apply !text-mil !font-normal;
+}
+
+.CardCost {
+    @apply !text-primary !font-bold !text-lg pt-[6px];
+}
+
+.CardOldCost {
+    @apply !text-lg line-through;
+}
+
+.pagination-container {
+    @apply flex justify-end items-center mt-[90px];
+}
+
+.pagination li {
+    @apply border border-[#e5e5e5] rounded hover:!bg-primary;
+}
+
+.pagination li a {
+    @apply hover:!bg-primary hover:text-white;
+}
+
+.paginationActive {
+    @apply border-primary bg-primary text-white;
+}
+
+.costContainer {
+    @apply flex items-center gap-2;
+}

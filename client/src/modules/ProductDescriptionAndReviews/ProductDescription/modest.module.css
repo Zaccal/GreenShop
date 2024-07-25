@@ -1,0 +1,60 @@
+.markdown {
+}
+
+.markdown p {
+    @apply mb-11;
+}
+
+.markdown h1 {
+    margin-top: 0;
+    @apply font-bold text-2xl;
+}
+
+.markdown h2 {
+    @apply font-bold text-1xl;
+}
+
+.markdown h3 {
+    @apply font-bold text-xl;
+}
+
+.markdown h4 {
+    @apply font-bold text-[16px];
+}
+
+.markdown h5 {
+    @apply font-bold text-md;
+}
+
+.markdown h6 {
+    @apply font-bold text-sm;
+}
+
+.markdown small {
+    @apply font-bold text-[8px];
+}
+
+.markdown img,
+.markdown canvas,
+.markdown iframe,
+.markdown video,
+.markdown svg,
+.markdown select,
+.markdown textarea {
+    max-width: 100%;
+}
+
+.markdown blockquote {
+    @apply border-l-8 border-l-primary p-[1em];
+}
+
+.markdown a,
+.markdown a:visited {
+    color: #3498db;
+}
+
+.markdown a:hover,
+.markdown a:focus,
+.markdown a:active {
+    color: #2980b9;
+}

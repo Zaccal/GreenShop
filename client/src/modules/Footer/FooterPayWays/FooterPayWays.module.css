@@ -1,0 +1,14 @@
+.section {
+    @apply mt-8;
+}
+
+.title {
+    @apply text-lg font-bold;
+}
+
+.container {
+    @apply grid grid-cols-5 items-center gap-5 mt-3;
+}
+
+.pay {
+}

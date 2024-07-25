@@ -1,0 +1,19 @@
+.previews {
+    @apply grid grid-rows-4 gap-4 grid-flow-col;
+}
+
+.currentPreviewContainer {
+    @apply bg-muted w-25 h-25 border cursor-pointer border-transparent transition-all overflow-hidden;
+}
+
+.currentPreview {
+    @apply !mix-blend-multiply w-full h-full object-cover;
+}
+
+.currentPreviewSkilleton {
+    @apply w-full h-full max-w-25 max-h-25 !rounded-none;
+}
+
+.currentPreviewFallback {
+    @apply h-full;
+}

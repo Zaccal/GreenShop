@@ -1,0 +1,7 @@
+.wrapper {
+    @apply flex items-center gap-[10px];
+}
+
+.sizeContainer {
+    @apply rounded-full flex items-center justify-center text-md w-7 h-7 cursor-pointer;
+}

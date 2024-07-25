@@ -1,0 +1,11 @@
+.title {
+    @apply text-lg font-bold;
+}
+
+.container {
+    @apply flex items-center gap-[10px] mt-5;
+}
+
+.social {
+    @apply border border-primary text-primary rounded-sm p-[7px];
+}

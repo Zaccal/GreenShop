@@ -1,0 +1,22 @@
+.banner {
+    @apply pl-11 bg-accent flex items-center justify-between;
+}
+
+.uptitle {
+    @apply text-xl uppercase font-medium;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    line-height: 114%;
+    letter-spacing: 0.1em;
+}
+
+.title {
+    @apply font-black text-7xl uppercase max-w-[580px] mt-1;
+}
+
+.subtitle {
+    @apply text-gray-500 text-[16px] leading-6 max-w-[587px] mt-2 mb-11;
+}
+
+.button {
+    @apply !font-bold uppercase px-6 py-[10px];
+}

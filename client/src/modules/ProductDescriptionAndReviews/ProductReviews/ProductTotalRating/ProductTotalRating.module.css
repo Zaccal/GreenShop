@@ -1,0 +1,19 @@
+.wrapper {
+    @apply mb-3 flex items-center h-12 space-x-4;
+}
+
+.sector {
+    @apply flex flex-col;
+}
+
+.title {
+    @apply text-lg font-bold;
+}
+
+.subtitle {
+    @apply text-sm text-subtitle;
+}
+
+.section_inner {
+    @apply flex items-center gap-4;
+}

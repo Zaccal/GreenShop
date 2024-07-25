@@ -1,0 +1,35 @@
+.container {
+    @apply flex items-start gap-[30px];
+}
+
+.currentPreviewContainer {
+    @apply relative h-full w-full max-w-[444px] min-h-[444px] flex items-center justify-center overflow-hidden;
+}
+
+.currentPreviewContainer:has(.currentPreview, .fallback) {
+    @apply bg-muted;
+}
+
+.diolog {
+    @apply block;
+}
+
+.currentPreview {
+    @apply h-full w-full object-cover mix-blend-multiply;
+}
+
+.currentPreviewContainer:has(.currentPreview) .diolog {
+    @apply block;
+}
+
+.diolog {
+    @apply hidden absolute right-3 top-3 z-10;
+}
+
+.fallback {
+    @apply w-full;
+}
+
+.skilleton {
+    @apply !w-full !h-[444px] !rounded-none;
+}

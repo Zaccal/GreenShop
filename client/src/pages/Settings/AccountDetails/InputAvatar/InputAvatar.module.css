@@ -1,0 +1,7 @@
+.fallback {
+    @apply !rounded-full !w-12 !h-12 bg-muted;
+}
+
+.fallback svg {
+    @apply !w-5 !h-5;
+}

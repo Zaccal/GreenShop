@@ -1,0 +1,15 @@
+.card {
+    @apply border-b border-x-transparent border-t-transparent rounded-none shadow-none;
+}
+
+.card_header {
+    @apply flex items-center justify-between;
+}
+
+.user {
+    @apply flex items-end gap-4;
+}
+
+.user_content {
+    @apply flex flex-col text-md;
+}

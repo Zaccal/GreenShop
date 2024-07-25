@@ -1,0 +1,11 @@
+.button {
+    @apply relative;
+}
+
+.button > * {
+    @apply w-6 h-6;
+}
+
+.count {
+    @apply absolute text-[12px] flex items-center justify-center font-bold text-center right-[-10px] top-[-5px] text-primary-foreground bg-primary rounded-full w-5 h-5;
+}

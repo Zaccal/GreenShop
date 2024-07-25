@@ -1,0 +1,15 @@
+.forget_password {
+    @apply text-md transition-colors hover:text-primary text-right block;
+}
+
+.require_btn {
+    @apply w-full text-[16px] mt-[27px] mb-[46px] !font-bold;
+}
+
+.text_through_line {
+    @apply w-full text-center border-b leading-[0.1em] my-[10px];
+}
+
+.inner_text_through_line {
+    @apply bg-white px-[10px];
+}

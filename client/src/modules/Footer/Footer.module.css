@@ -1,0 +1,12 @@
+.footer {
+    @apply py-[25px] bg-muted mt-[100px] w-full;
+}
+
+.container {
+    @apply grid grid-cols-4;
+}
+
+.container .infoCard + .infoCard {
+    @apply pl-7;
+    border-left: 1px solid rgba(70, 163, 88, 0.1);
+}

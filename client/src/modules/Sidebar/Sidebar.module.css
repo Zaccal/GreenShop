@@ -1,0 +1,35 @@
+.sidebar {
+    @apply bg-accent;
+}
+
+.container {
+    @apply py-[14px] px-[18px];
+}
+
+.title {
+    @apply leading-4 text-lg font-[600];
+}
+
+.list {
+    @apply mt-4 mb-9;
+}
+
+.option {
+    @apply ml-3 cursor-pointer list-none text-[15px] flex justify-between items-center;
+}
+
+.option + .option {
+    @apply mt-4;
+}
+
+.option.active {
+    @apply font-bold text-primary;
+}
+
+.optionPrice span {
+    @apply text-md leading-4;
+}
+
+.price {
+    @apply font-bold text-primary;
+}

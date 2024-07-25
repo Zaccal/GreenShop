@@ -1,0 +1,47 @@
+.card {
+    @apply border-none !shadow-none !rounded-none;
+}
+
+.card_header:has(.card_img) {
+    @apply p-0 bg-muted;
+}
+
+.card_content {
+    @apply pl-0;
+}
+
+.card_title {
+    @apply text-[15px] mt-3;
+}
+
+.card_img {
+    @apply mix-blend-multiply;
+}
+
+.cost {
+    @apply text-primary font-bold;
+}
+
+.fallback {
+    @apply w-full bg-muted h-[170px];
+}
+
+.fallback > svg {
+    @apply w-11 h-11;
+}
+
+.skilleton {
+    @apply !w-full !h-[170px];
+}
+
+.costContainer {
+    @apply flex items-center gap-2;
+}
+
+.CardDisCount {
+    @apply absolute bg-primary mt-4 py-[7px] px-[9px] text-white z-10;
+}
+
+.oldCost {
+    @apply line-through text-subtitle;
+}
